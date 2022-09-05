@@ -36,7 +36,7 @@ const makeString = (text: string) => {
   const vowelCharacters = allVowels.join('');
   const consonantCharacters = allConsonants.join('');
 
-  return { vowelCharacters, consonantCharacters };
+  return `Input: ${text} | Output: the vowel characters is "${vowelCharacters}" & the consonant characters is "${consonantCharacters}"`;
 };
 
 const filtered = (letters: typeof vowels, isVowel = true) => {
@@ -45,9 +45,4 @@ const filtered = (letters: typeof vowels, isVowel = true) => {
     .sort((a, b) => a.localeCompare(b));
 };
 
-const input = 'Sample Case';
-const { vowelCharacters, consonantCharacters } = makeString(input);
-
-const firstTestOutput = `Input: ${input} | Output: the vowel characters is "${vowelCharacters}" & the consonant characters is "${consonantCharacters}"`;
-
-console.log(firstTestOutput);
+export default makeString;

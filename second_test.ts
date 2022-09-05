@@ -64,6 +64,4 @@ const minimumBusRequired = (fams: number, members: number[]) => {
   return `Minimum bus required is : ${busNeeded}`;
 };
 
-const secondTestOutput = minimumBusRequired(5, [1, 2, 4, 3, 3]);
-
-console.log(secondTestOutput);
+export default minimumBusRequired;
