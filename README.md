@@ -2,9 +2,7 @@
 
 ### how to run the test
 
-```txt
-please install vscode extension "Quokka", to see the output directly (inline with console.log).
-```
+please install vscode extension [Quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode), to see the output directly (inline with console.log).
 
 ---
 
