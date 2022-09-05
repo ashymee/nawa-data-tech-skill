@@ -42,3 +42,5 @@ const text = 'Sample Case';
 const families = 5;
 const members = [1, 2, 4, 3, 3];
 ```
+
+![cli's results](/ss_cli.jpg)
