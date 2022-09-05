@@ -18,16 +18,29 @@ Second Test
 
 2. Using CLI
 
+clone this repo:
+
 ```bash
-# use npm
+git clone https://github.com/ashymee/nawa-data-tech-skill.git
+```
+
+> use npm, or
+
+```bash
 npm install
 npm run result
+```
 
-# use yarn
+> use yarn, or
+
+```bash
 yarn install
 yarn result
+```
 
-# use pnpm
+> use pnpm
+
+```bash
 pnpm install
 pnpm result
 ```
